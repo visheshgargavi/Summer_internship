@@ -1,4 +1,8 @@
 import joblib
-num = int(input('Enter year of experience:'))
+name = input('Enter your name : ')
+num = float(input('Enter year of experience : '))
 model = joblib.load('marks.pk1')
-print(model.predict[[num]])
+print()
+print('Name : ' name)
+print('Year_of_Experience : ' num) 
+print('Salary : 'model.predict([[num]]))
