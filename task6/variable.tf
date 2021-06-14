@@ -1,8 +1,8 @@
 variable "AWS_ACCESS_KEY" {
-default = "AKIASBQAQ2HC6GYXNPN7"
+default = "AKIASBQAQ2HCXNPN7"
 }
 variable "AWS_SECRET_KEY" {
-default = "ZX/VgAbpnQNUWvUtLeFBsE8hXOyCYXzA9m5djiQ4"
+default = "ZX/VgAbpnUtLeFBsE8hXOyCYXzA9m5djiQ4"
 }
 variable "AWS_REGION" {
 default = "ap-south-1"
@@ -75,5 +75,5 @@ variable "Branch" {
 default="master"
 }
 variable "Oauth-token" {
-default="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"
+default="ghp_fM4tLROEBjTwDGVAAhxbYCo2w9M3t"
 }
